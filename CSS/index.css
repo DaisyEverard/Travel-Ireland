@@ -1,0 +1,9 @@
+.page-section {}
+
+h2 {
+    color: blue;
+}
+
+.fluid-container {
+    overflow-x: hidden;
+}
