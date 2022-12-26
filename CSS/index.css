@@ -31,6 +31,9 @@
     background-color: var(--color-green-dark) !important;
     color: white !important; 
 }
+.curly-font {
+    font-family:  'Berkshire Swash', cursive;
+}
 /* JUMBOTRON */
 .jumbotron {
     background-image: url(../images/jumbotron-bg.jpg);
@@ -45,8 +48,10 @@
     margin: 2px 5px; 
 }
 .jumbotron .tagline {
-    height: 70%; 
-    font-family: 'Berkshire Swash', cursive;
+    float: right;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 0 0 5px 5px;
+    margin: 0 5px; 
 }
 /* DOWNLOAD */
 .download {
@@ -80,7 +85,34 @@
 }
 
 /* TOURS */
-
+.tours {
+    background-color: rgb(105, 105, 105);
+}
+.tours h2 {
+  color: white;
+  margin-top: 30px; 
+}
+.tours .cardContainer {
+    height: 400px; 
+}
+.tours .card {
+    height: 90%; 
+    border: none;
+}
+.tours .card-body, .tours .bg-image {
+    height: 50%; 
+    display: flex;
+    flex-direction: column;
+}
+#giants-causeway {
+    background-image: url(../images/giants-causeway.jpg);
+}
+#urban-explore {
+    background-image: url(../images/urban-explore.jpg);
+}
+#fourteen-day {
+    background-image: url(../images/14day.jpg);
+}
 /* SUBSCRIBE */
 .subscribe {
     background-image: url(../images/subscribe-bg.jpg);
