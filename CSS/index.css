@@ -1,7 +1,118 @@
-h2 {
-    color: blue;
+/* general */
+:root {
+    --color-green: rgb(40, 167, 69);
+    --color-green-dark: rgb(0, 107, 0);
+}
+.row {
+    margin-right: 0px !important;
+}
+.page-section {
+    text-align: center;
+}
+.bg-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.fluid-container {
-    overflow-x: hidden;
+.flex-center {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+}
+.btn-green {
+    background-color: var(--color-green) !important;
+}
+.btn-green:hover {
+    background-color: var(--color-green-dark) !important;
+    color: white !important; 
+}
+/* JUMBOTRON */
+.jumbotron {
+    background-image: url(../images/jumbotron-bg.jpg);
+    padding-top: 0px !important;
+    margin-bottom: 0px !important;
+    height: 500px;
+}
+.jumbotron h1 {
+    font-family: 'Playfair Display SC', serif;
+}
+.jumbotron li {
+    margin: 2px 5px; 
+}
+.jumbotron .tagline {
+    height: 70%; 
+    font-family: 'Berkshire Swash', cursive;
+}
+/* DOWNLOAD */
+.download {
+    background-color: #e9be00;
+    height: 400px;
+}
+.download .container {
+    height: 100%; 
+}
+.download .row {
+    height: 80%;
+}
+/* REVIEWS */
+.testimonials .container {
+  margin: 50px auto; 
+}
+.testimonial-image {
+    border-radius: 50%;
+    max-width: 100%;
+    width: 200px; 
+    height: 200px;
+}
+#testimonial1 {
+    background-image: url(../images/jennifer.jpg);
+}
+#testimonial2 {
+    background-image: url(../images/alex.jpg);
+}
+#testimonial3 {
+    background-image: url(../images/jackson.jpg);
+}
+
+/* TOURS */
+
+/* SUBSCRIBE */
+.subscribe {
+    background-image: url(../images/subscribe-bg.jpg);
+    height: 400px;
+}
+.subscribe .fluid-container {
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* CONTACTS */
+
+.contacts h2 {
+    margin: 20px auto;
+}
+.contacts .card {
+    height: 150px;
+}
+.social {
+    margin: 20px auto; 
+    font-size: 4em;
+}
+.social a {
+    color: var(--color-green);
+}
+.social a:hover {
+    color: var(--color-green-dark);
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer p {
+    margin-bottom: 0px !important;
 }
