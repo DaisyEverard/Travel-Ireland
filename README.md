@@ -6,6 +6,10 @@ https://daisyeverard.github.io/Travel-Ireland/
 
 ## Preview
 
+<p align="center">
+  <img src="./images/preview.png" width="500" alt="screenshot of site">
+</p>
+
 ## Description
 
 Travel guide company for tours of Ireland
